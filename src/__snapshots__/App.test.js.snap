@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot of Active Window view 1`] = `
+<div
+  class="active-window"
+>
+  <img
+    class="image-window"
+    data-testid="image"
+    src="https://picsum.photos/id/undefined/200/300.jpg"
+  />
+</div>
+`;
+
+exports[`should match snapshot of Active Window when activeId is set 1`] = `
+<div
+  class="active-window"
+>
+  <img
+    alt={1022}
+    class="image-window"
+    data-testid="image"
+    src="https://picsum.photos/id/1022/200/300.jpg"
+  />
+</div>
+`;

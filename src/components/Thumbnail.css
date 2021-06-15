@@ -1,0 +1,56 @@
+.thumbnail-gallery {
+    background: white;
+    height: 500px;
+    width: 550px;
+    margin: 40px auto;
+    display: flex;
+    margin-left: 25%;
+}
+.thumbnails-grid {
+   /* height: 35%;
+    width: 100%;*/
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-style {
+    font-size: medium;
+    text-align: left;
+    background-color: white;
+}
+
+.active-window {
+    /* height: 65%;
+    width: 100%; */
+    background: white;
+}
+
+.image-window {
+    /* width: 100%;
+    height: 100%; */
+}
+
+.thumbnail-styles {
+    height: 50%;
+    width: 24.63%;
+    border: white;
+    border-width: thin;
+    border-style: solid;
+}
+.selected-style {
+    /* width: 90%;
+    height: 90%; */
+    border: red;
+    border-style: solid;
+    border-width: thick;
+  }
+
+.image-styles {
+    /* width: 100%;
+    height: 100%; */
+}
+.text-style {
+    font-size: small;
+    text-align: left;
+    width: 100%;
+}
